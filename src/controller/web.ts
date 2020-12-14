@@ -1,4 +1,7 @@
 import { Router } from 'express';
+import ShortenDB from './db/db';
+
+const sdb = new ShortenDB();
 
 export default () => {
   const router = Router();
